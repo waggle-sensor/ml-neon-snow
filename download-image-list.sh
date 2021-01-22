@@ -1,8 +1,10 @@
 #!/bin/bash
 
-if [ -z "$1" ]; then
-    echo "usage: $0 url-list-file"
+if [ -z "$*" ]; then
+    echo "usage: $0 url-list-files ..."
     exit 1
 fi
 
-wget -r -N -i "$1"
+for file in $*; do
+    wget -r -N -i "$file"
+done
