@@ -31,7 +31,7 @@ Once you create an image list, you can quickly download these locally using the 
 ./download-image-list.sh urls.txt
 ```
 
-This will download and save the images into a `phenocam.sr.unh.edu` directory with the same structure as their site.
+This will download the images into a `phenocam.sr.unh.edu` directory with the same structure as their site.
 
 ```bash
 $ find phenocam.sr.unh.edu
