@@ -54,3 +54,10 @@ Once you create an image list, we can generate a CSV which can be imported into 
 ```bash
 ./build-labelbox-import-csv.sh urls.txt > my-dataset.csv
 ```
+
+This file can now be uploaded to Labelbox by:
+
+1. Login to Labelbox and go to Datasets -> Add dataset.
+2. Upload CSV file.
+3. Set "Column to label" as imageUrl and "External ID" to externalId.
+4. Start upload.
