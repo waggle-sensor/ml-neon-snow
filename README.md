@@ -49,8 +49,8 @@ phenocam.sr.unh.edu/data/archive/NEON.D05.TREE.DP1.00042/2021/01/NEON.D05.TREE.D
 
 ### Creating Labelbox Import CSV
 
-Once you create an image list, we can generate a CSV which can be imported into Labelbox using the `build-labelbox-csv-from-list.sh` tool.
+Once you create an image list, we can generate a CSV which can be imported into Labelbox using the `build-labelbox-import-csv.sh` tool.
 
 ```bash
-./build-labelbox-csv-from-list.sh urls.txt > my-dataset.csv
+./build-labelbox-import-csv.sh urls.txt > my-dataset.csv
 ```
